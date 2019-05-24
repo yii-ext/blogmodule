@@ -11,7 +11,7 @@ class Module extends \funson86\blog\Module
         // die($this->layout);
 
         if ($this->getIsBackend() === true) {
-            $this->setViewPath('@yiiapps/blog/views/backend');
+            $this->setViewPath('@yiiapps/adminblog/views/backend');
         } elseif (isset(Yii::$app->params['blogTheme'])) {
             $this->setViewPath('@frontend/themes/blog');
             $this->setLayoutPath('@frontend/themes/blog/layouts');
