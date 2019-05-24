@@ -1,0 +1,16 @@
+{
+    "name": "yiiapps/blogmodule",
+    "description": "funson86/yii2-blog 的扩展, 依赖yiiapps/adminlte-asset-ext",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","blog"],
+    "license": "mit",
+    "authors": [
+        {
+            "name": "tbq"
+        }
+    ],
+    "require": {
+        "funson86/yii2-blog": "*",
+        "yiiapps/adminlte-asset-ext": "*"
+    },
+}
