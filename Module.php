@@ -1,5 +1,5 @@
 <?php
-namespace yiiapps\blog;
+namespace yiiapps\adminblog;
 
 class Module extends \funson86\blog\Module
 {
@@ -12,12 +12,12 @@ class Module extends \funson86\blog\Module
 
         if ($this->getIsBackend() === true) {
             $this->setViewPath('@yiiapps/adminblog/views/backend');
-        } elseif (isset(Yii::$app->params['blogTheme'])) {
+        } elseif (isset(\Yii::$app->params['blogTheme'])) {
             $this->setViewPath('@frontend/themes/blog');
             $this->setLayoutPath('@frontend/themes/blog/layouts');
         } else {
-            $this->setViewPath('@yiiapps/blog/views/frontend');
-            $this->setLayoutPath('@yiiapps/blog/views/frontend/layouts');
+            $this->setViewPath('@yiiapps/adminblog/views/frontend');
+            $this->setLayoutPath('@yiiapps/adminblog/views/frontend/layouts');
         }
     }
 
