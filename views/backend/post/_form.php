@@ -41,13 +41,9 @@ use yii\widgets\ActiveForm;
 ]);?>
 
     <?=$form->field($model, 'tags')->textInput(['maxlength' => 128]);?>
-
     <?=$form->field($model, 'surname')->textInput(['maxlength' => 128]);?>
-
+    <?=$form->field($model, 'source_url')->textInput(['maxlength' => 255]);?>
     <?=$form->field($model, 'banner')->fileInput();?>
-
-    <?=$form->field($model, 'click')->textInput();?>
-
     <?=$form->field($model, 'status')->dropDownList(\funson86\blog\models\Status::labels());?>
 
     <div class="form-group">
