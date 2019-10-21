@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "funson86/yii2-blog": "1.0",
+        "funson86/yii2-blog": "*",
         "yiiapps/adminlte-asset-ext": "*"
     }
 }
