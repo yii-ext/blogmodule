@@ -3,7 +3,7 @@
 namespace yiiexttbq\blogmodule\controllers\backend;
 
 use Yii;
-use yiiapps\blog\models\BlogPost;
+use yiiexttbq\blog\models\BlogPost;
 use yii\web\UploadedFile;
 
 class PostController extends \funson86\blog\controllers\backend\BlogPostController
