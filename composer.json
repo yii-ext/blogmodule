@@ -1,5 +1,5 @@
 {
-    "name": "yiiapps/blogmodule",
+    "name": "yii-exttbq/blogmodule",
     "description": "funson86/yii2-blog 的扩展, 依赖yiiapps/adminlte-asset-ext. 加入了新的controller的namespace, 方便yii2basic模版",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","blog","funson86"],
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "funson86/yii2-blog": "*",
+        "yii-exttbq/blog": "*",
         "yiiapps/adminlte-asset-ext": "*"
     }
 }
