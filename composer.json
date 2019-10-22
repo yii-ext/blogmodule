@@ -13,5 +13,10 @@
     "require": {
         "yii-exttbq/blog": "*",
         "yiiapps/adminlte-asset-ext": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii-exttbq\\blogmodule\\": ""
+        }
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace yiiapps\adminblog;
+namespace yii-exttbq\blogmodule;
 
 class Module extends \funson86\blog\Module
 {

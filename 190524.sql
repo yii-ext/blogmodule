@@ -1,4 +1,4 @@
-insert  into `auth_item`(`name`,`type`,`description`,`rule_name`,`data`,`created_at`,`updated_at`) values
+insert  into `admin_auth_item`(`name`,`type`,`description`,`rule_name`,`data`,`created_at`,`updated_at`) values
 ('/adminblog/*',2,NULL,NULL,NULL,1558669668,1558669668),
 ('/adminblog/catalog/*',2,NULL,NULL,NULL,1558669668,1558669668),
 ('/adminblog/catalog/create',2,NULL,NULL,NULL,1558669668,1558669668),
@@ -28,7 +28,7 @@ insert  into `auth_item`(`name`,`type`,`description`,`rule_name`,`data`,`created
 ('/adminblog/tag/view',2,NULL,NULL,NULL,1558669668,1558669668),
 ('博客管理',2,NULL,NULL,NULL,1558670469,1558670469);
 
-insert  into `auth_item_child`(`parent`,`child`) values
+insert  into `admin_auth_item_child`(`parent`,`child`) values
 ('博客管理','/adminblog/*'),
 ('博客管理','/adminblog/catalog/*'),
 ('博客管理','/adminblog/catalog/create'),
@@ -141,7 +141,7 @@ CREATE TABLE `blog_tag` (
   KEY `frequency` (`frequency`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
-insert  into `menu`(`id`,`name`,`parent`,`route`,`order`,`data`) values
+insert  into `admin_menu`(`id`,`name`,`parent`,`route`,`order`,`data`) values
 (9,'博客',NULL,'/adminblog/default/index',NULL,NULL),
 (10,'分类',9,'/adminblog/catalog/index',NULL,NULL),
 (11,'文章',9,'/adminblog/post/index',NULL,NULL),
