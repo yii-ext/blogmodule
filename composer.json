@@ -12,7 +12,7 @@
     ],
     "require": {
         "yiiexttbq/blog": "*",
-        "yiiexttbq/adminlte-asset-ext": "*"
+        "yiiexttbq/adminlte": "*"
     },
     "autoload": {
         "psr-4": {
