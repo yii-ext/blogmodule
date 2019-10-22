@@ -3,8 +3,8 @@
 return [
     'modules' => [
         'blog' => [
-            'class' => 'yii-exttbq\blogmodule\Module',
-            'controllerNamespace' => 'exttbq\blogmodule\controllers\backend',
+            'class' => 'yiiexttbq\blogmodule\Module',
+            'controllerNamespace' => 'yiiexttbq\blogmodule\controllers\backend',
         ],
     ],
 ];

@@ -1,6 +1,6 @@
 <?php
 
-namespace yiiapps\adminblog\controllers\backend;
+namespace yiiexttbq\blogmodule\controllers\backend;
 
 use Yii;
 use yiiapps\blog\models\BlogPost;

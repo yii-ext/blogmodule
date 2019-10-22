@@ -1,6 +1,6 @@
 <?php
 
-namespace yiiapps\blog\models;
+namespace yiiexttbq\blogmodule\models;
 
 class BlogPost extends \funson86\blog\models\BlogPost
 {
