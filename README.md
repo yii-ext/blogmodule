@@ -5,17 +5,17 @@
 ## basic模版安装方式 ##
     composer create-project --prefer-dist yiisoft/yii2-app-basic [项目名称]
 ## 安装 ##
-	composer require yiiapps/adminlte-asset-ext
+	composer require yiiexttbq/adminlte
 配置
     把advanced的 common/models/user.php 复制到根目录
 
-    配置yiiapps/adminlte-asset-ext, 查看详细配置过程
+    配置 yiiexttbq/adminlte-asset-ext, 查看详细配置过程
 
     //管理端
-    $config['aliases']['@yiiapps/adminblog'] = '@vendor/yiiapps/blogmodule';
+    $config['aliases']['@yiiexttbq/adminblog'] = '@vendor/yiiexttbq/blogmodule';
     $config['modules']['adminblog'] = [
-        'class' => 'yiiapps\adminblog\Module',
-        'controllerNamespace' => 'yiiapps\adminblog\controllers\backend',
+        'class' => 'yiiexttbq\adminblog\Module',
+        'controllerNamespace' => 'yiiexttbq\adminblog\controllers\backend',
     ];
     //frontend
     $config['defaultRoute'] = 'blog';
